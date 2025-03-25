@@ -2,7 +2,7 @@ name: Auto_PC_8am
 
 on:
   schedule:
-    - cron: "40 13 * * *" # 对应 UTC 时间 13:23 (北京时间 21:23)
+    - cron: "30 23 * * *" # 对应 UTC 时间 23:30 (北京时间 7：30)
   workflow_dispatch:
 
 env:
